@@ -1,0 +1,22 @@
+*{
+    background-color: rgba(0, 0, 0,1);
+}
+div{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    border-right: 10px solid rgb(38, 255, 0);
+    border-left:10px solid rgb(201, 46, 170) ; 
+    animation: spin 2s ease-in-out 0s infinite ;
+}
+@keyframes spin{
+    from{
+        transfrom: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
